@@ -26,7 +26,7 @@ const Clients = () => {
 						<ClientColumn key={clientsIndex}>
 							{clients.map((el, index) => (
 								<ClientWrapper key={index}>
-									<ClientImage src={`./images/companies/${el.name}.svg`} />
+									<ClientImage src={`./assets/images/companies/${el.name}.svg`} />
 								</ClientWrapper>
 							))}
 						</ClientColumn>

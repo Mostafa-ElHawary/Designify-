@@ -14,6 +14,7 @@ import {
 } from './HeroStyles';
 import { useInView } from 'react-intersection-observer';
 import Modal from '../Model/Model';
+
 const Hero = () => {
 	const [showModal, setShowModal] = useState(false);
 	const dragConstraints = { top: 0, bottom: 0, right: 0, left: 0 };
@@ -48,18 +49,19 @@ const Hero = () => {
 	return (
 		<>
 			<HeroSection id="hero">
-				<HeroImage className="pattern" src="./images/hero-pattern-bg-lg.png" />
-				<HeroImage className="guy" src="./images/hero-guy-1.png" />
+				
+				<HeroImage className="pattern" src="https://github.com/Mostafa-ElHawary/Designify-/blob/main/public/images/hero-pattern-bg-lg.png?raw=true"/>
+				<HeroImage className="guy" src="https://github.com/Mostafa-ElHawary/Designify-/blob/main/public/images/hero-guy-1.png?raw=true" />
 				<CharacterContainer>
 					<ImageCharacter
 						dragConstraints={dragConstraints}
 						className="one"
-						src="./images/image 1.png"
+						src="https://github.com/Mostafa-ElHawary/Designify-/blob/main/public/images/image%201.png?raw=true"
 					/>
 					<ImageCharacter
 						dragConstraints={dragConstraints}
 						className="two"
-						src="./images/image 2.png"
+						src="https://github.com/Mostafa-ElHawary/Designify-/blob/main/public/images/image%202.png?raw=true"
 					/>
 					<ImageCharacter
 						variants={variants}
@@ -67,7 +69,7 @@ const Hero = () => {
 						drag
 						dragConstraints={dragConstraints}
 						className="three"
-						src="./images/image 3.png"
+						src="https://github.com/Mostafa-ElHawary/Designify-/blob/main/public/images/image%203.png?raw=true"
 					/>
 				</CharacterContainer>
 				<HeroContent>

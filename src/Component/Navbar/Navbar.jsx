@@ -35,7 +35,7 @@ const Navbar = () => {
 			<Nav>
 				<NavbarContainer>
 					<NavLogo to="/">
-						<NavIcon src="./images/logo.svg" alt="" />
+						<NavIcon src="https://raw.githubusercontent.com/Mostafa-ElHawary/Designify-/08af7c6daddde8b050a62d52c729e2f418fe3a01/public/images/logo.svg" alt="" />
 						esignify
 					</NavLogo>
 					<MobileIcon onClick={() => setShow(!show)}>
