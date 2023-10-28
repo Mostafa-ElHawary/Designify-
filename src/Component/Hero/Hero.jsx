@@ -50,18 +50,18 @@ const Hero = () => {
 		<>
 			<HeroSection id="hero">
 				
-				<HeroImage className="pattern" src="https://github.com/Mostafa-ElHawary/Designify-/blob/main/public/images/hero-pattern-bg-lg.png?raw=true"/>
-				<HeroImage className="guy" src="https://github.com/Mostafa-ElHawary/Designify-/blob/main/public/images/hero-guy-1.png?raw=true" />
+				<HeroImage className="pattern" src="https://github.com/Mostafa-ElHawary/Designify-/blob/main/public/assets/images/hero-pattern-bg-lg.png?raw=true"/>
+				<HeroImage className="guy" src="https://github.com/Mostafa-ElHawary/Designify-/blob/main/public/assets/images/hero-guy-1.png?raw=true" />
 				<CharacterContainer>
 					<ImageCharacter
 						dragConstraints={dragConstraints}
 						className="one"
-						src="https://github.com/Mostafa-ElHawary/Designify-/blob/main/public/images/image%201.png?raw=true"
+						src="https://github.com/Mostafa-ElHawary/Designify-/blob/main/public/assets/images/image%201.png?raw=true"
 					/>
 					<ImageCharacter
 						dragConstraints={dragConstraints}
 						className="two"
-						src="https://github.com/Mostafa-ElHawary/Designify-/blob/main/public/images/image%202.png?raw=true"
+						src="https://github.com/Mostafa-ElHawary/Designify-/blob/main/public/assets/images/image%202.png?raw=true"
 					/>
 					<ImageCharacter
 						variants={variants}
@@ -69,7 +69,7 @@ const Hero = () => {
 						drag
 						dragConstraints={dragConstraints}
 						className="three"
-						src="https://github.com/Mostafa-ElHawary/Designify-/blob/main/public/images/image%203.png?raw=true"
+						src="https://github.com/Mostafa-ElHawary/Designify-/blob/main/public/assets/images/image%203.png?raw=true"
 					/>
 				</CharacterContainer>
 				<HeroContent>
